@@ -1,0 +1,24 @@
+
+/* Style principal du composant */
+#playstation {
+  background-color: #003087;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px auto; 
+  text-align: center;
+  width: 80%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style du titre */
+#playstation h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+/* Style du paragraphe */
+#playstation p {
+  font-size: 16px;
+  list-style: 1.5;
+}

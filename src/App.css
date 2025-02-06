@@ -14,6 +14,7 @@
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -40,3 +41,25 @@
 .read-the-docs {
   color: #888;
 }
+
+.banner {
+  background: linear-gradient(90deg, #eaedf3ea, #e4e6e900);
+  color: rgb(0, 0, 0);
+  text-align: left;
+  padding: 2px;
+  padding-left: 100px;
+  font-size: 10px;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(3, 3, 3, 0.1);
+  z-index: 1000;
+}
+
+.banner h1 {
+  margin: 0;
+  padding: 15px 0;
+}
+
